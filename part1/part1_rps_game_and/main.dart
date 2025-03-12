@@ -4,7 +4,7 @@ import 'dart:math';
 
 void main() {
   /// 1. 유저에게 어떤 타입을 낼 것인지 물어보는 질의 창
-  print('가위 바위 보 중 하나를 정해서 입력해 주세요.');
+  print('가위, 바위, 보 중 하나를 정해서 입력해 주세요.');
   final String userInput =
       stdin.readLineSync(encoding: utf8) ?? 'Error'; // 콘솔 한국어로 입력
 
